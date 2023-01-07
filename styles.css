@@ -1,0 +1,169 @@
+
+/******************* first part of the page  ***********************/
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: "montserrat-dark";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container{
+    padding: 4% 15%;  
+}
+
+#brand{
+    font-size:3.5rem;
+    font-family: "montserrat";
+}
+
+.mobile{
+    width: 270px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "montserrat-light";
+    font-size: 1.5rem;
+
+}
+.downlod-button{
+    margin: 5% 3% 5% 0%;
+}
+
+@media ( max-width: 1000px) {
+
+    
+    .mobile{
+        position:static ;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/********************* this is features part of the page********************/
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h3{
+    font-family: "montserrat";
+    size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.logo{
+    color: #ef8172;
+    padding-bottom: 1rem;   
+}
+
+.logo:hover{
+    color: #ff4c68;
+}
+
+
+
+/************************** this is testimonials parts trhe page ******************************/
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2.testimonials-text{
+    color:white;
+    font-family: "montserrat";
+    font-size: 3rem;
+    
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+
+/*************************** this is pricing part the  page**********************/
+
+.pricing{
+
+    padding: 3% 2%;
+}
+
+#pricing{
+    padding: 60px;
+    text-align: center;
+}
+
+/* .features-box{
+    background-color: white;
+    padding: 7% 15%; 
+
+    
+} */
+
+/***************** this is call to action part of the page  ****************/
+
+.cta1{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 15%;
+    
+}
+h3.cta-1{
+    font-family: "montserrat";
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/************************* this is the footer part of the page ******************/
+
+#footer{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+.media{
+    margin: 20px 10px;
+}
